@@ -40,11 +40,10 @@ main{
   font-family:"Manrope";
 }
 
-.card >*{
-  width:100%;
-}
+
 
 .card .card__image{
+  width: 70%;
   max-width: 60%;
 }
 
@@ -68,7 +67,7 @@ main{
 }
 
 .card__body h1{
-  width:100%;
+  width:80%;
   font-size:clamp(1rem,2.7vh,1.5rem);
   color:var(--clr_primary);
   font-weight:var(--fw_large);
@@ -169,6 +168,7 @@ svg{
   }
 
   .card .card__image{
+    width: 100%;
     max-width: 100%;
   }
 
